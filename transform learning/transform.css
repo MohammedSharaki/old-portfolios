@@ -1,0 +1,115 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+.all
+{
+    background: #333;
+    width: 1000px;
+    height:100vh;
+    padding:10px;
+    margin: 10px;
+    border: 2px solid yellow;
+}
+
+
+.rotata
+{
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    float: left;
+    padding: 2px ;
+    /*transform: rotate(40deg);  علشان تلف العنصر بدرجه 40 درجه وتقبل سوالب */
+    transition:all 1.7s;
+    text-align: center;
+
+
+}
+
+
+.scale
+{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    /*transform: scale(width,height);بتلف العنصر حسب الدرجه */
+    transition:all 1.7s;
+    text-align: center;
+
+}
+
+
+.translate
+{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    text-align: center;
+    transition:all 1.7s;
+    /*tarnsform:translate(10px,10px)دي بتحرك الدف مش بتمدده */
+}
+
+
+.rotata:hover{
+    transform: rotate(40deg);
+    /*transform: rotate(40deg);  علشان تلف العنصر بدرجه 40 درجه وتقبل سوالب */
+}
+
+
+.scale:hover{
+    transform: scale(2,2 );
+    /*transform: scale(width,height); بتعمل تمديد للطول والعرض   */
+}
+
+
+.translate:hover
+{
+    transform: translate(10px,10px);
+    /*tarnsform:translate(10px,10px)دي بتحرك الدف مش بتمدد بتقبل السوالب  */
+
+}
+
+
+.skew
+{
+    float: left;
+    background:wheat ;
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 2px;
+    text-align: center;
+    transition:all 1.7s;
+    /*transform: skew(-10deg,10deg); دي تقبل درجات وعلشان تبقي زي الرتوت لازم تحط القيمتين عكس بعضوهو هوا زي الروتوت */
+}
+.skew:hover{
+    transform: skew(-10deg,10deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
